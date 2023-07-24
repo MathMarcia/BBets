@@ -80,9 +80,10 @@ favstats(sorted_brownlow)
 ```
 The average earning Brownlow is making is about 281. 
 
-The standard deviation is 28.56. 95% confidence intreval is 2 standard deviation below the mena and 2 standar deviations above the mean Those numbers are between 209 345
+The standard deviation is 28.56. 95% confidence interval is 2 standard deviation below the mean and 2 standard deviations above the mean Those numbers are between 209 345
 
 # What are the fair odds? Use manipulation of odds in the function to tune Brownlows earnings to zero. 
+<!--Decide on your methods:  In this section explain the approach you will take to attack the issue --- how will you decide on a likely estimate of professor Brownlow's earnings or losses after 637 bets. Also explain how you construct a 95% confidence interval about your estimate of his winnings !-->
 
 ```{r}
 b_low <- array(100)
@@ -103,7 +104,12 @@ plot(sorted_b_low, type = "l", xlab = "Index", ylab = "Value",
 favstats(sorted_b_low)
 ```
 
-<!--Decide on your methods:  In this section explain the approach you will take to attack the issue --- how will you decide on a likely estimate of professor Brownlow's earnings or losses after 637 bets. Also explain how you construct a 95% confidence interval about your estimate of his winnings !-->
+
+
+
+# What size of class makes the 2:1 bet fair?  Use manipulation of number of Students to tune Brownlows earnings to zero.
+
+<!--Explain and display the results of your method of coming up with the estimate of professor Brownlows betting profits!-->
 
 
 ```{r}
@@ -124,13 +130,6 @@ plot(sorted_Blue_low, type = "l", xlab = "Index", ylab = "Value",
 favstats(sorted_Blue_low)
 ```
 
-# What size of class makes the 2:1 bet fair?  Use manipulation of number of Students to tune Brownlows earnings to zero.
-
-<!--Explain and display the results of your method of coming up with the estimate of professor Brownlows betting profits!-->
-
-
-
-
 
 
 
@@ -139,3 +138,4 @@ favstats(sorted_Blue_low)
 
 <!--Discussion and conclusion here.  If professor Brownlow is consistantly making or losing money how could he change his payout so that his profits center on zero?  Also discuss what size his class should be in order to have his current scheme balance at zero profit.!-->
 
+Today class was a very complicated because it is not a standard Technics but is a Technic that you will get better with practice. This is a very common in practice. It is a matter of practicing. 
