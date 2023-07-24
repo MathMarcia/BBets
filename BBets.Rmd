@@ -55,7 +55,7 @@ varstor=numeric()
 
 
 
-# In the class and payoff as described  If you highered 40 brownlow substitute teachers to do the same thing that Brownlow did then.
+# 1 In the class and payoff as described  If you highered 40 brownlow substitute teachers to do the same thing that Brownlow did then.
 ## what is their average earnings
 ## the standard deviation and a 95% confidence interval for their earnings?
   
@@ -82,7 +82,7 @@ The average earning Brownlow is making is about 281.
 
 The standard deviation is 28.56. 95% confidence interval is 2 standard deviation below the mean and 2 standard deviations above the mean Those numbers are between 209 345
 
-# What are the fair odds? Use manipulation of odds in the function to tune Brownlows earnings to zero. 
+# 2 What are the fair odds? Use manipulation of odds in the function to tune Brownlows earnings to zero. 
 <!--Decide on your methods:  In this section explain the approach you will take to attack the issue --- how will you decide on a likely estimate of professor Brownlow's earnings or losses after 637 bets. Also explain how you construct a 95% confidence interval about your estimate of his winnings !-->
 
 ```{r}
@@ -99,6 +99,8 @@ plot(sorted_b_low, type = "l", xlab = "Index", ylab = "Value",
      main = "Line Plot of Brownlow Numerical Vector")
 ```
 
+We started trying with different numbers such as 1, 2, 3 ,4 and we finalized that it was between 3 and 4. Then we tried hard to get near zero but we ended at 4.37.
+
 
 ```{r}
 favstats(sorted_b_low)
@@ -107,7 +109,7 @@ favstats(sorted_b_low)
 
 
 
-# What size of class makes the 2:1 bet fair?  Use manipulation of number of Students to tune Brownlows earnings to zero.
+# 3 What size of class makes the 2:1 bet fair?  Use manipulation of number of Students to tune Brownlows earnings to zero.
 
 <!--Explain and display the results of your method of coming up with the estimate of professor Brownlows betting profits!-->
 
