@@ -113,7 +113,6 @@ favstats(sorted_b_low)
 
 <!--Explain and display the results of your method of coming up with the estimate of professor Brownlows betting profits!-->
 
-
 ```{r}
 Blue_low <- array(40)
 for (i in 1:40) {
@@ -132,7 +131,7 @@ plot(sorted_Blue_low, type = "l", xlab = "Index", ylab = "Value",
 favstats(sorted_Blue_low)
 ```
 
-
+For finding the professors betting profits, we changed numclass to 28 (students in his class) and we found out that  the median is -23 andthe mean is -24.425.
 
 
 
